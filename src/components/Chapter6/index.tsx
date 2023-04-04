@@ -101,3 +101,12 @@ function Home() {
   return <ForwardRefIndex ref={ref} />
 }
 // 函数组件 useRef 
+
+//1. 函数组件 forwardRef + useImperativeHandle 实现组件通信
+/**
+ * useImperativeHandle 一方面第一个参数接受父组件传递的 ref 对象，
+ * 另一方面第二个参数是一个函数，函数返回值，作为 ref 对象获取的内容
+ */
+
+//2. 函数组件缓存数据
+
